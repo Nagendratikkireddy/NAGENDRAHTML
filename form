@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>localhost
+        <legend>personal details</legend>
+        <label for="">first name</label>
+        <input type="text">
+        <label for="">last name</label>
+        <input type="text"><br><br>
+        <label for ="">DOB</label>
+        <input type="date" name=""><br><br>
+        <input type="radio"name="gender">male
+        <input type="radio"name="gender">female
+        <input type="radio"name="gender">others
+    </fieldset>
+    <select name="" id="">
+        <option value="">cse</option>
+        <option value="">ece</option>
+        <option value="">eee</option>
+    <select name="" id="">
+        <optgroup label="bachelors">
+        <option value="">cse</option>
+        <option value="">ece</option>
+        <option value="">eee</option>
+    </optgroup> 
+    <optgroup label="masters">
+        <option value="">MCA</option>
+        <option value="">MBA</option>
+    </optgroup>
+    <input list="branch">
+    <datalist id="branch">
+        <option value="CSE">CSE</option>
+        <option value="CSE">CSE</option>
+        <option value="CSE">CSE</option>
+        <option value="CSE">MCA</option>
+        <option value="CSE">MBA</option>
+    </datalist>   
+</body>
+</html>
